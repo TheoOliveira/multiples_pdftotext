@@ -14,5 +14,6 @@
 ## TODO
 
 - criar loop com opção para fazer conversão em lote de todos os arquivos do diretório 
-- adicionar opção para converter para .doc
+- adicionar opção para converter para .doc(talvez usar essa library [(https://github.com/python-openxml/python-docx](https://github.com/python-openxml/python-docx)
 - criar GUI usando tkinter ou alguma framework de QT
+- talvez criar a possibilidade de traduzir usando isso [https://pypi.org/project/googletrans/](https://pypi.org/project/googletrans/)
