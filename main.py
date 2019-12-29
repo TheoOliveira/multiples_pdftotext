@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 
 
-import pdftotext
-import os
+import pdftotext, os 
+import googletrans
+from googletrans import Translator
+
+translator = Translator()
 #Pergunta qual o diretorio
 print("Qual o diretorio")
 caminho = raw_input()
@@ -21,6 +24,7 @@ def carregaConverte(carminho, arquivo):
         arquivo = arquivo.replace('.pdf', '')
     with open(caminho+arquivo+'.txt', 'w') as f:
         f.write("\n\n".join(pdf).encode('utf-8'))
+    #translator.translate(arquivo, dest='pt')
 
 carregaConverte(caminho,arquivo)
 
