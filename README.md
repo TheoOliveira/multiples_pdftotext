@@ -1,6 +1,6 @@
 # multiples_pdftotext
 
-- Script simples para extrair diversos arquivos pdfs em lote
+- Script simples para converter diversos arquivos pdfs em lote para txt
 
 
 # TODO
