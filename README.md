@@ -15,4 +15,4 @@
 
 - criar loop com opção para fazer conversão em lote de todos os arquivos do diretório 
 - adicionar opção para converter para .doc
--criar GUI usando tkinter ou alguma framework de QT
+- criar GUI usando tkinter ou alguma framework de QT
